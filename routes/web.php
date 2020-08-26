@@ -11,6 +11,4 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return "Hello API";
-});
+$router->post('/product', 'ProductController@create');
