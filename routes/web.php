@@ -16,3 +16,5 @@ $router->get('/product', 'ProductController@index');
 $router->get('/product/{id}', 'ProductController@show');
 $router->put('/product/{id}', 'ProductController@update');
 $router->delete('/product/{id}', 'ProductController@destroy');
+
+$router->post('/register', 'UserController@register');
